@@ -1,0 +1,17 @@
+# ─────────────────────────────────────────────────────────────
+# Voucher Eligibility Automation Tool — Python Dependencies
+# ─────────────────────────────────────────────────────────────
+# Install with:  pip install -r requirements.txt
+# ─────────────────────────────────────────────────────────────
+
+# Streamlit — web application framework
+streamlit>=1.35.0
+
+# Data processing
+pandas>=2.1.0
+numpy>=1.26.0
+
+# Excel file reading and writing
+openpyxl>=3.1.2        # Read/write .xlsx; required for styled output
+xlrd>=2.0.1            # Read legacy .xls files
+xlsxwriter>=3.1.9      # Alternative Excel writer (used by pandas ExcelWriter)
